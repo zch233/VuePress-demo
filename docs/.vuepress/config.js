@@ -13,7 +13,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '组件', link: '/components/basic/button/' },
       { text: 'npm', link: 'https://www.npmjs.com/package/', target:'_blank' },
-      { text: 'GitHub', link: 'https://github.com/', target:'_blank' },
+      { text: 'codeup', link: 'https://codeup.aliyun.com/gupo/gupo-front-components-vuepress', target:'_blank' },
     ],
     sidebar: {
       '/components/': [
