@@ -53,12 +53,6 @@ export default {
           <GupoButton round type="info">信息按钮</GupoButton>
           <GupoButton round type="error">失败按钮</GupoButton>
         </div>
-        <div>
-          <GupoButton circle icon="search"></GupoButton>
-          <GupoButton circle type="info" icon="setting"></GupoButton>
-          <GupoButton circle type="success" icon="star"></GupoButton>
-          <GupoButton circle type="error" icon="delete"></GupoButton>
-        </div>
       `.replace(/^ {8}/gm, '').trim(),
     }
   },
