@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/gupo-front-components/',
+  base: '/VuePress-demo/',
   title: 'gupo-front-components',
   description: '前端组精心准备的 Vue 2.x 的组件库',
   head: [
