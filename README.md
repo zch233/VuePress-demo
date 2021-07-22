@@ -7,7 +7,7 @@
 
    🌰1：
    ```
-   { path: '/components/introduce/', title: '开始' }
+   { title: '开始', path: '/components/introduce/' }
    ```
    🌰2（嵌套路由）：
    ```
