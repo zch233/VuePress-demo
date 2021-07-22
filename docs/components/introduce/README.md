@@ -1,6 +1,7 @@
-# Components Of Vue
+# 开始
 
 ## 介绍
+
 是基于 Vue 的 UI 组件库，主要用于大家的积累和展示。
 
 ## 特性
@@ -20,6 +21,7 @@ yarn add gulu-front-components
 ```
 
 ## 使用说明
+
 1. 首先在 src 中增加组件
 2. 增加页面，直接在 docs/ 下增加 README.md 文件即可创建，🌰：/docs/components/basic/button/README.md
 3. 增加路由，在 .vuepress/config.js 中 修改/新增 sidebar 属性即可，
