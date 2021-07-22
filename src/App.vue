@@ -1,14 +1,13 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import GupoButton from "./components/Basic/Button";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GupoButton,
   },
   render() {
     return <div id="app">
-      <HelloWorld />
+      <GupoButton />
     </div>
   }
 }
