@@ -54,3 +54,11 @@ yarn add gulu-front-components
   <basic-button-index></basic-button-index>
 </ClientOnly>
 ```
+
+## 发布
+
+```
+yarn deploy
+// or
+npm run deploy
+```
