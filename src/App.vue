@@ -7,7 +7,7 @@ export default {
   },
   render() {
     return <div id="app">
-      <GupoButton />
+      <GupoButton>组件调试</GupoButton>
     </div>
   }
 }
