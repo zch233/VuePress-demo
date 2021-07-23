@@ -45,7 +45,9 @@ yarn add gulu-front-components
 ### 替代 markdown 内容
 
 > 由于用 markdown 写页面非常麻烦，所以我们采用在 `markdown` 中引入 `.vue` 文件的方式来写页面
+> 
 > 🌰：在 docs/vuepress/components 下增加 `.vue` 文件
+> 
 > 之后在 markdown 引入即可，如下，需要用 `ClientOnly` 包裹组件，组件名称为 **文件的路径**
 
 
@@ -54,6 +56,16 @@ yarn add gulu-front-components
   <basic-button-index></basic-button-index>
 </ClientOnly>
 ```
+
+## 单元测试
+
+> 每个组件都应经过严格的单元测试才能发布
+> 
+> 在 tests/unit/** 中
+> 
+> 运行 `yarn test:unit` 查看单测结果
+
+![](./img.png)
 
 ## 发布
 
