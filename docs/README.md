@@ -11,7 +11,7 @@ features:
 - title: Vue 驱动
   details: 顺畅的开发体验，实践最流行的技术。
 - title: 自动化测试
-  details: 采用 Karma + Mocha + Chai 做自动化测试，运行 npm run dev-test 即可实时测试代码。
+  details: 采用 @vue/test-utils + Mocha + Chai 做自动化测试，运行 npm run test:unit 即可实时测试代码。
   
 footer: MIT Licensed | Copyright © 2021-present GuPo
 
